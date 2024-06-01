@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: '#FA8072'}}>
+    <AppBar position="static" sx={{backgroundColor: '#D092A1'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -47,9 +47,9 @@ function ResponsiveAppBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily: 'Source Sans 3',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
