@@ -33,6 +33,9 @@ function ResponsiveAppBar() {
     if (page == "Portfolio") {
       navigator("/portfolio");
     }
+    if (page == "Achievements") {
+      navigator("/achievements");
+    }
   };
 
   const handleCloseUserMenu = () => {

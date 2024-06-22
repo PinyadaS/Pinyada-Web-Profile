@@ -14,6 +14,25 @@ export const portfoliodata = [
     imgURL: "/swimming.png",
   },
   {
+    title: "Summer Camp Exchange",
+    description: "Participated as representative of Thailand",
+    longdescription:
+      "I have been chosen from many kids to be part of the Thailand delegation to participate in international summer camps in both Italy and Austria, as part of the Children's International Summer Village.",
+    imgURL: "/camp.png",
+  },
+];
+
+export const achievementsdata = [
+  {
+    id: "1",
+    title: "Math Awards",
+    description: "Many bronze, silver and gold medals",
+    longdescription:
+      "I have participated in many math competitions throughout the years. In most of them, I have gotten silver and gold medals, and for some, merit or distinction awards. For Kangaroo Math Competition, I have gotten 1st in Thailand.",
+    imgURL: "/math.png",
+  },
+  {
+    id: "2",
     title: "Singing",
     description: "Passed Trinity grade 6",
     longdescription:

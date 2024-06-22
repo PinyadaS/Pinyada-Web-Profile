@@ -6,6 +6,8 @@ import Profile from './pages/Profile';
 import { Box } from '@mui/material';
 import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
+import Achievements from './pages/Achievements';
+import Achievementdetail from './pages/Achievementdetail';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Profile/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/achievements' element={<Achievements/>}/>
+          <Route path='/achievements/:id' element={<Achievementdetail/>}/>
         </Routes>
       <Footer/>
       </Box>
